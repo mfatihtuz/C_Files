@@ -8,19 +8,16 @@ the number of combinations we can make from n if you chose p, and then print it 
 
 
 int factorial(int n){
-	
 	if(n==0){
 		return 1;
 	}
-	else{
-		int ans = 1;
-		int i;
-		for(i=2;i<=n;i++){
+
+	int ans = 1;
+	int i;
+	for(i=2;i<=n;i++){
 		ans *=i;
-		}
-	return ans;
 	}
-	
+	return ans;	
 }
 
 int comb (int n, int p){
