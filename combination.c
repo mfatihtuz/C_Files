@@ -1,3 +1,8 @@
+/*
+Write a C program which reads two numbers n and p from the standard input (Keyboard) and calculate
+the number of combinations we can make from n if you chose p, and then print it on screen.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
